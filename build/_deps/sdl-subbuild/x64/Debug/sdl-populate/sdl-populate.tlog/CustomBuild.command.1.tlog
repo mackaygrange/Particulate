@@ -1,0 +1,150 @@
+^C:\USERS\MACBG\DEV\FERL\BUILD\_DEPS\SDL-SUBBUILD\CMAKEFILES\7499FC4C97596366028B61712A065804\SDL-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/Users/macbg/dev/ferl/build/_deps/sdl-subbuild/sdl-populate-prefix/tmp/sdl-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/macbg/dev/ferl/build/_deps/sdl-subbuild/sdl-populate-prefix/src/sdl-populate-stamp/Debug/sdl-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\MACBG\DEV\FERL\BUILD\_DEPS\SDL-SUBBUILD\CMAKEFILES\7499FC4C97596366028B61712A065804\SDL-POPULATE-DOWNLOAD.RULE
+setlocal
+cd C:\Users\macbg\dev\ferl\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/macbg/dev/ferl/build/_deps/sdl-subbuild/sdl-populate-prefix/tmp/sdl-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/macbg/dev/ferl/build/_deps/sdl-subbuild/sdl-populate-prefix/src/sdl-populate-stamp/Debug/sdl-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\MACBG\DEV\FERL\BUILD\_DEPS\SDL-SUBBUILD\CMAKEFILES\7499FC4C97596366028B61712A065804\SDL-POPULATE-UPDATE.RULE
+setlocal
+cd C:\Users\macbg\dev\ferl\build\_deps\sdl-src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/macbg/dev/ferl/build/_deps/sdl-subbuild/sdl-populate-prefix/tmp/sdl-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\MACBG\DEV\FERL\BUILD\_DEPS\SDL-SUBBUILD\CMAKEFILES\7499FC4C97596366028B61712A065804\SDL-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/macbg/dev/ferl/build/_deps/sdl-subbuild/sdl-populate-prefix/src/sdl-populate-stamp/Debug/sdl-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\MACBG\DEV\FERL\BUILD\_DEPS\SDL-SUBBUILD\CMAKEFILES\7499FC4C97596366028B61712A065804\SDL-POPULATE-CONFIGURE.RULE
+setlocal
+cd C:\Users\macbg\dev\ferl\build\_deps\sdl-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/macbg/dev/ferl/build/_deps/sdl-subbuild/sdl-populate-prefix/src/sdl-populate-stamp/Debug/sdl-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\MACBG\DEV\FERL\BUILD\_DEPS\SDL-SUBBUILD\CMAKEFILES\7499FC4C97596366028B61712A065804\SDL-POPULATE-BUILD.RULE
+setlocal
+cd C:\Users\macbg\dev\ferl\build\_deps\sdl-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/macbg/dev/ferl/build/_deps/sdl-subbuild/sdl-populate-prefix/src/sdl-populate-stamp/Debug/sdl-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\MACBG\DEV\FERL\BUILD\_DEPS\SDL-SUBBUILD\CMAKEFILES\7499FC4C97596366028B61712A065804\SDL-POPULATE-INSTALL.RULE
+setlocal
+cd C:\Users\macbg\dev\ferl\build\_deps\sdl-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/macbg/dev/ferl/build/_deps/sdl-subbuild/sdl-populate-prefix/src/sdl-populate-stamp/Debug/sdl-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\MACBG\DEV\FERL\BUILD\_DEPS\SDL-SUBBUILD\CMAKEFILES\7499FC4C97596366028B61712A065804\SDL-POPULATE-TEST.RULE
+setlocal
+cd C:\Users\macbg\dev\ferl\build\_deps\sdl-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/macbg/dev/ferl/build/_deps/sdl-subbuild/sdl-populate-prefix/src/sdl-populate-stamp/Debug/sdl-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\MACBG\DEV\FERL\BUILD\_DEPS\SDL-SUBBUILD\CMAKEFILES\9FD2313389723F4AF3E73A319532ED15\SDL-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/macbg/dev/ferl/build/_deps/sdl-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/macbg/dev/ferl/build/_deps/sdl-subbuild/CMakeFiles/Debug/sdl-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/macbg/dev/ferl/build/_deps/sdl-subbuild/sdl-populate-prefix/src/sdl-populate-stamp/Debug/sdl-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\MACBG\DEV\FERL\BUILD\_DEPS\SDL-SUBBUILD\CMAKEFILES\195DE74DD1980BE929BDC8267B9C1644\SDL-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\MACBG\DEV\FERL\BUILD\_DEPS\SDL-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/macbg/dev/ferl/build/_deps/sdl-subbuild -BC:/Users/macbg/dev/ferl/build/_deps/sdl-subbuild --check-stamp-file C:/Users/macbg/dev/ferl/build/_deps/sdl-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

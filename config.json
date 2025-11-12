@@ -1,0 +1,19 @@
+{
+    "display_index": 1,
+    "display_width": 2560,
+    "display_height": 1440,
+    "window_width": 1280,
+    "window_height": 720,
+    "fps": 60,
+    "fov": 90.0,
+    "far_plane": 1000.0,
+    "near_plane": 0.1,
+
+    "window_flags": [0],
+    "renderer_flags": [4],
+    "texture_flags": [0],
+
+    "depth_scale": 1.0,
+    "default_parallax": 1.0,
+    "debug_overlay": true
+}

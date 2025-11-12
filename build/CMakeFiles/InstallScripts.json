@@ -1,0 +1,14 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/macbg/dev/ferl/build/cmake_install.cmake",
+		"C:/Users/macbg/dev/ferl/build/_deps/sdl-build/cmake_install.cmake",
+		"C:/Users/macbg/dev/ferl/build/_deps/sdl_image-build/cmake_install.cmake",
+		"C:/Users/macbg/dev/ferl/build/_deps/sdl_image-build/external/libtiff-build/cmake_install.cmake",
+		"C:/Users/macbg/dev/ferl/build/_deps/sdl_image-build/external/libtiff-build/port/cmake_install.cmake",
+		"C:/Users/macbg/dev/ferl/build/_deps/sdl_image-build/external/libtiff-build/libtiff/cmake_install.cmake",
+		"C:/Users/macbg/dev/ferl/build/_deps/sdl_image-build/external/libtiff-build/build/cmake_install.cmake",
+		"C:/Users/macbg/dev/ferl/build/_deps/sdl_image-build/external/libwebp-build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

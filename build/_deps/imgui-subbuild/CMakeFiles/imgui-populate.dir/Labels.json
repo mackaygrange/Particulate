@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/macbg/dev/ferl/build/_deps/imgui-subbuild/CMakeFiles/imgui-populate"
+		},
+		{
+			"file" : "C:/Users/macbg/dev/ferl/build/_deps/imgui-subbuild/CMakeFiles/853f30f63a92a7a23c9b0901033dcba5/imgui-populate.rule"
+		},
+		{
+			"file" : "C:/Users/macbg/dev/ferl/build/_deps/imgui-subbuild/CMakeFiles/a8668181d86458c01244720b15beeb68/imgui-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/macbg/dev/ferl/build/_deps/imgui-subbuild/CMakeFiles/8accefcbef4492af1ee86dee11f2a2f1/imgui-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/macbg/dev/ferl/build/_deps/imgui-subbuild/CMakeFiles/8accefcbef4492af1ee86dee11f2a2f1/imgui-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/macbg/dev/ferl/build/_deps/imgui-subbuild/CMakeFiles/8accefcbef4492af1ee86dee11f2a2f1/imgui-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/macbg/dev/ferl/build/_deps/imgui-subbuild/CMakeFiles/8accefcbef4492af1ee86dee11f2a2f1/imgui-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/macbg/dev/ferl/build/_deps/imgui-subbuild/CMakeFiles/8accefcbef4492af1ee86dee11f2a2f1/imgui-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/macbg/dev/ferl/build/_deps/imgui-subbuild/CMakeFiles/8accefcbef4492af1ee86dee11f2a2f1/imgui-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/macbg/dev/ferl/build/_deps/imgui-subbuild/CMakeFiles/8accefcbef4492af1ee86dee11f2a2f1/imgui-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/macbg/dev/ferl/build/_deps/imgui-subbuild/CMakeFiles/8accefcbef4492af1ee86dee11f2a2f1/imgui-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"imgui-populate"
+		],
+		"name" : "imgui-populate"
+	}
+}

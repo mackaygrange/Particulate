@@ -1,0 +1,1 @@
+C:\Users\macbg\dev\ferl\build\_deps\sdl_image-build\external\libwebp-build\webpdsp.dir\Debug\webpdsp.lib

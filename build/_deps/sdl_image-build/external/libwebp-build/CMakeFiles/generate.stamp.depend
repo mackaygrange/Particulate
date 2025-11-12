@@ -1,0 +1,35 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-4.0/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in
+C:/Program Files/CMake/share/cmake-4.0/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/CMakePushCheckState.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/CheckIncludeFiles.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/FindGIF.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/FindGLUT.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/FindJPEG.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/FindOpenGL.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/FindPNG.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/FindPkgConfig.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/FindTIFF.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/FindZLIB.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/GNUInstallDirs.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/SelectLibraryConfigurations.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/WriteBasicConfigVersionFile.cmake
+C:/Users/macbg/dev/ferl/build/CMakeFiles/cmake.verify_globs
+C:/Users/macbg/dev/ferl/build/CPM_modules/FindSDL.cmake
+C:/Users/macbg/dev/ferl/build/_deps/sdl_image-src/external/libwebp/CMakeLists.txt
+C:/Users/macbg/dev/ferl/build/_deps/sdl_image-src/external/libwebp/cmake/WebPConfig.cmake.in
+C:/Users/macbg/dev/ferl/build/_deps/sdl_image-src/external/libwebp/cmake/config.h.in
+C:/Users/macbg/dev/ferl/build/_deps/sdl_image-src/external/libwebp/cmake/cpu.cmake
+C:/Users/macbg/dev/ferl/build/_deps/sdl_image-src/external/libwebp/cmake/deps.cmake
+C:/Users/macbg/dev/ferl/build/_deps/sdl_image-src/external/libwebp/sharpyuv/libsharpyuv.pc.in
+C:/Users/macbg/dev/ferl/build/_deps/sdl_image-src/external/libwebp/src/demux/libwebpdemux.pc.in
+C:/Users/macbg/dev/ferl/build/_deps/sdl_image-src/external/libwebp/src/libwebp.pc.in
+C:/Users/macbg/dev/ferl/build/_deps/sdl_image-src/external/libwebp/src/libwebpdecoder.pc.in
+C:/Users/macbg/dev/ferl/build/_deps/sdl_image-src/external/libwebp/src/mux/libwebpmux.pc.in
+C:/Users/macbg/dev/ferl/build/cmake/CPM.cmake

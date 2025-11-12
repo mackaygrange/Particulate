@@ -1,0 +1,16 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDependentOption.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeParseArguments.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/CMakePushCheckState.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/GNUInstallDirs.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/WriteBasicConfigVersionFile.cmake
+C:/Users/macbg/dev/ferl/build/CMakeFiles/cmake.verify_globs
+C:/Users/macbg/dev/ferl/build/_deps/sdl_image-src/CMakeLists.txt
+C:/Users/macbg/dev/ferl/build/_deps/sdl_image-src/cmake/GetGitRevisionDescription.cmake
+C:/Users/macbg/dev/ferl/build/_deps/sdl_image-src/cmake/PrivateSdlFunctions.cmake
+C:/Users/macbg/dev/ferl/build/_deps/sdl_image-src/cmake/sdlcpu.cmake
+C:/Users/macbg/dev/ferl/build/_deps/sdl_image-src/cmake/sdlmanpages.cmake
+C:/Users/macbg/dev/ferl/build/_deps/sdl_image-src/cmake/sdlplatform.cmake

@@ -1,0 +1,3 @@
+C:/Users/macbg/dev/ferl/build/_deps/sdl_image-subbuild/CMakeFiles/sdl_image-populate.dir
+C:/Users/macbg/dev/ferl/build/_deps/sdl_image-subbuild/CMakeFiles/ALL_BUILD.dir
+C:/Users/macbg/dev/ferl/build/_deps/sdl_image-subbuild/CMakeFiles/ZERO_CHECK.dir
