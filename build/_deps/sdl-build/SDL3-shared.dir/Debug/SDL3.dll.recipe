@@ -2,10 +2,10 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Users\macbg\dev\ferl\build\x64\Debug\ZERO_CHECK</FullPath>
+      <FullPath>C:\Users\macbg\dev\Particulate\build\x64\Debug\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\macbg\dev\ferl\build\bin\Debug\SDL3.dll</FullPath>
+      <FullPath>C:\Users\macbg\dev\Particulate\build\bin\Debug\SDL3.dll</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

@@ -7,7 +7,7 @@ if(CMAKE_VERSION VERSION_LESS "2.8.3")
    message(FATAL_ERROR "CMake >= 2.8.3 required")
 endif()
 cmake_policy(PUSH)
-cmake_policy(VERSION 2.8.3...3.30)
+cmake_policy(VERSION 2.8.3...3.31)
 #----------------------------------------------------------------
 # Generated CMake target import file.
 #----------------------------------------------------------------
@@ -59,28 +59,28 @@ set_target_properties(SDL3::SDL3_test PROPERTIES
 set_property(TARGET SDL3::SDL3_test APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(SDL3::SDL3_test PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "C"
-  IMPORTED_LOCATION_DEBUG "C:/Users/macbg/dev/ferl/build/_deps/sdl-build/Debug/SDL3_test.lib"
+  IMPORTED_LOCATION_DEBUG "C:/Users/macbg/dev/Particulate/build/_deps/sdl-build/Debug/SDL3_test.lib"
   )
 
 # Import target "SDL3::SDL3_test" for configuration "Release"
 set_property(TARGET SDL3::SDL3_test APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(SDL3::SDL3_test PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "C"
-  IMPORTED_LOCATION_RELEASE "C:/Users/macbg/dev/ferl/build/_deps/sdl-build/Release/SDL3_test.lib"
+  IMPORTED_LOCATION_RELEASE "C:/Users/macbg/dev/Particulate/build/_deps/sdl-build/Release/SDL3_test.lib"
   )
 
 # Import target "SDL3::SDL3_test" for configuration "MinSizeRel"
 set_property(TARGET SDL3::SDL3_test APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(SDL3::SDL3_test PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_MINSIZEREL "C"
-  IMPORTED_LOCATION_MINSIZEREL "C:/Users/macbg/dev/ferl/build/_deps/sdl-build/MinSizeRel/SDL3_test.lib"
+  IMPORTED_LOCATION_MINSIZEREL "C:/Users/macbg/dev/Particulate/build/_deps/sdl-build/MinSizeRel/SDL3_test.lib"
   )
 
 # Import target "SDL3::SDL3_test" for configuration "RelWithDebInfo"
 set_property(TARGET SDL3::SDL3_test APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(SDL3::SDL3_test PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELWITHDEBINFO "C"
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/Users/macbg/dev/ferl/build/_deps/sdl-build/RelWithDebInfo/SDL3_test.lib"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/Users/macbg/dev/Particulate/build/_deps/sdl-build/RelWithDebInfo/SDL3_test.lib"
   )
 
 # Make sure the targets which have been exported in some other
