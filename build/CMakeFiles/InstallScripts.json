@@ -1,8 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"C:/Users/macbg/dev/Particulate/build/cmake_install.cmake",
-		"C:/Users/macbg/dev/Particulate/build/_deps/sdl-build/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

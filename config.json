@@ -15,5 +15,11 @@
 
     "depth_scale": 1.0,
     "default_parallax": 1.0,
-    "debug_overlay": true
+    "debug_overlay": false,
+
+    "max_particles": 1000,
+    "gravity_x": 0.0,
+    "gravity_y": 0.0,
+    "global_damping": 0.0,
+    "default_particle_radius": 0.1
 }

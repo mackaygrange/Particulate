@@ -43,6 +43,13 @@ private:
     float depth_scale = 1.0f;          // Controls perspective shrink in layered scene
     float default_parallax = 1.0f;      // Base parallax multiplier if layer not explicit
     bool debug_overlay = false;         // Toggle for on-screen debug
+    
+    // Simulation / particle sandbox parameters
+    int max_particles = 1000;           // soft maximum particles allowed
+    float gravity_x = 0.0f;             // world gravity X (normalized units/sec^2)
+    float gravity_y = 0.0f;             // world gravity Y (normalized units/sec^2), +ve downwards
+    float global_damping = 0.0f;        // velocity damping factor (0.0 = no damping)
+    float default_particle_radius = 0.01f; // default normalized radius for particles
 
 public:
     static Config& get_instance()
@@ -72,9 +79,15 @@ public:
         if (j.contains("renderer_flags")) renderer_flags = j["renderer_flags"].get<std::vector<int>>(); else return false;
         if (j.contains("texture_flags")) texture_flags = j["texture_flags"].get<std::vector<int>>(); else return false;
 
-        if (j.contains("depth_scale")) depth_scale = j["depth_scale"].get<float>();
-        if (j.contains("default_parallax")) default_parallax = j["default_parallax"].get<float>();
-        if (j.contains("debug_overlay")) debug_overlay = j["debug_overlay"].get<bool>();
+    if (j.contains("depth_scale")) depth_scale = j["depth_scale"].get<float>();
+    if (j.contains("default_parallax")) default_parallax = j["default_parallax"].get<float>();
+    if (j.contains("debug_overlay")) debug_overlay = j["debug_overlay"].get<bool>();
+
+    if (j.contains("max_particles")) max_particles = j["max_particles"].get<int>();
+    if (j.contains("gravity_x")) gravity_x = j["gravity_x"].get<float>();
+    if (j.contains("gravity_y")) gravity_y = j["gravity_y"].get<float>();
+    if (j.contains("global_damping")) global_damping = j["global_damping"].get<float>();
+    if (j.contains("default_particle_radius")) default_particle_radius = j["default_particle_radius"].get<float>();
 
             target_frame_delta = (1000.0f / static_cast<float>(fps));
             ASSERT(target_frame_delta > 0.0f, "Invalid target frame delta");
@@ -141,6 +154,13 @@ public:
     float get_depth_scale() const { return depth_scale; }
     float get_default_parallax() const { return default_parallax; }
     bool is_debug_overlay() const { return debug_overlay; }
+
+    // Simulation getters
+    int get_max_particles() const { return max_particles; }
+    float get_gravity_x() const { return gravity_x; }
+    float get_gravity_y() const { return gravity_y; }
+    float get_global_damping() const { return global_damping; }
+    float get_default_particle_radius() const { return default_particle_radius; }
 };
 
 #endif
